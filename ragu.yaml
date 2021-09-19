@@ -1,0 +1,175 @@
+---
+steps:
+  - ingredients: &soffritto
+      yellow onion:
+        unit: pcs
+        amount: 1
+        details: >
+          very finely chopped
+      carrot:
+        unit: pcs
+        amount: 2
+        details: >
+          very finely chopped (preferrably grated)
+      celery:
+        unit: pcs
+        amount: 2
+        details: >
+          very finely chopped (preferrably grated)
+    do: >
+      finely chop onion, and grate the celery and carrots. This is preperation
+      for later.
+  - ingredients: &garlic
+      panchetta:
+        unit: g
+        amount: 130
+      garlic:
+        unit: clove
+        amount: 5
+    do: >
+      Use a mini food processor to combine panchetta and garlic into a smooth
+      paste.
+  - ingredients: &butter
+      <<: *garlic
+      unsalted butter:
+        unit: tbsp
+        amount: 6
+    time: 4m
+    heat: medium
+    do: >
+      Scrape the paste into a large, wide casserole dish or other heavy-bottomed
+      pot, along with two tablespoons of the butter. Melt them together over
+      medium heat, spreading the paste around with a wooden spoon. Cook until
+      the fat is mostly rendered, about four minutes, stirring occasionally.
+
+  - ingredients: *soffritto
+    time: 15m
+    heat: medium-low
+    do: >
+      Add the onion, carrot and celery – the soffritto – and cook slowly over
+      medium-low heat, stirring frequently enough so the soffritto doesn’t
+      brown – until the onion is soft, translucent and pale gold, which takes
+      about 15 minutes.
+
+  - ingredients: &meat
+      beef mince:
+        unit: g
+        amount: 450
+        details: >
+          20 percent fat, ideally grass-fed
+      pork mince:
+        unit: g
+        amount: 450
+        details: >
+          ideally pasture-raised
+    time:
+    heat: medium
+    do: >
+      Add the minced beef and pork to the pot, increase the heat to medium, and
+      break up the meat with a wooden spoon as much as possible. Until the meat
+      has a faint sizzle.
+
+  - ingredients: *meat
+    time: 1h
+    heat: medium-low
+    do: >
+      Let the meat brown slowly, stirring occasionally and continuing to break
+      up any remaining clumps, for about one hour, until evenly browned and
+      burnished.
+
+  - ingredients: &stock
+      chicken broth/stock:
+        unit: ml
+        amount: 700
+        details: >
+          can be exchanged for homemade beef stock
+    heat: high
+    do: >
+      When the meat is nearly done browning, in a medium saucepan over high
+      heat, heat the broth until simmering; cover and keep hot over low heat
+      until ready to use.
+
+  - ingredients: &wine
+      red wine:
+        unit: ml
+        amount: 235
+        details: >
+          original recepie calls for dry white wine
+    heat: medium-high
+    time: 3m
+    do: >
+      Increase the heat under the browned meat to medium-high and stir in the
+      wine, scraping up any browned bits or deposits on the bottom of the pan.
+      Cook and stir until the wine is mostly soaked in and evaporated, about
+      three minutes.
+
+  - ingredients: &milk
+      salt:
+        unit: tsp
+        amount: 1
+      nutmeg:
+        unit: pinch
+        amount: 1
+      whole milk:
+        unit: ml
+        amount: 235
+        details: >
+          oatly barrista edition works well as a non-dairy alternative
+    heat: medium-low
+    time: 3m
+    do: >
+      Stir in the salt and nutmeg, reduce the heat to medium-low and add the
+      milk, cooking and stirring until it is barely visible, for about three
+      minutes.
+
+  - ingredients: &paste
+      <<: *stock
+      tomato paste:
+        unit: tbsp
+        amount: 2
+    do: >
+      Measure 470ml of the hot broth and dissolve the tomato paste in it. Stir
+      the broth with paste into the meat sauce.
+      (keep the unused broth handy in the pot in case you need to reheat it and
+      add more to the sauce later)
+
+  - ingredients: &tin
+      tinned tomatos:
+        unit: g
+        amount: 400
+        details:
+          use a mixer or food processor to make the tomatos into a puree
+    time: 2h
+    heat: low
+    do: >
+      Stir the broth with paste into the meat sauce, then stir in the tomato
+      puree. Partially cover the pot and let the sauce simmer slowly and
+      gently, stirring occasionally, until it is thick and all the components
+      begin to melt together, for about two hours.
+
+  - ingredients: *stock
+    time: 1h
+    heat: low
+    do: >
+      Stir the sauce – if it is starting to look at all dry, reheat the
+      remaining chicken broth, ladle in a little more, about 120ml, and stir.
+      Continue to simmer gently, uncovered, stirring occasionally and adding a
+      little more hot broth or water as needed, until the vegetables have
+      completely melted into the sauce, for about one hour.
+
+  - ingredients:
+      ground pepper:
+    do:
+      Cut the remaining four tablespoons of butter into a few pieces and stir
+      them into the sauce; add about 20 grinds of freshly ground black pepper
+      and stir that in, too. Taste, and season with more salt and/or pepper, if
+      desired.
+
+storage:
+  fridge: 3d
+  freezer: 60d
+
+servings: 12
+
+ingredients:
+  <<: [*soffritto, *garlic, *meat, *stock, *wine, *milk, *tin, *paste, *butter]
